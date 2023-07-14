@@ -7,23 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9114788D2A58654C00E5F178 /* WAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9114788C2A58654C00E5F178 /* WAButton.swift */; };
+		9114788F2A58771000E5F178 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9114788E2A58771000E5F178 /* OverviewNavBar.swift */; };
+		915279772A49F5A500793B32 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915279762A49F5A500793B32 /* NavBarController.swift */; };
+		9152797B2A49F86700793B32 /* WABaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9152797A2A49F86700793B32 /* WABaseController.swift */; };
+		9152797D2A49FAA600793B32 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9152797C2A49FAA600793B32 /* UIView + Extension.swift */; };
+		915279842A49FC3100793B32 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915279832A49FC3100793B32 /* SettingsController.swift */; };
+		915279862A49FC3E00793B32 /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915279852A49FC3E00793B32 /* ProgressController.swift */; };
+		915279882A49FC4C00793B32 /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915279872A49FC4C00793B32 /* SessionController.swift */; };
 		91A44D8A2A489DD10054357E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A44D892A489DD10054357E /* AppDelegate.swift */; };
 		91A44D8C2A489DD10054357E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A44D8B2A489DD10054357E /* SceneDelegate.swift */; };
-		91A44D8E2A489DD10054357E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A44D8D2A489DD10054357E /* ViewController.swift */; };
-		91A44D912A489DD10054357E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A44D8F2A489DD10054357E /* Main.storyboard */; };
+		91A44D8E2A489DD10054357E /* OverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A44D8D2A489DD10054357E /* OverViewController.swift */; };
 		91A44D932A489DD60054357E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A44D922A489DD60054357E /* Assets.xcassets */; };
 		91A44D962A489DD60054357E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A44D942A489DD60054357E /* LaunchScreen.storyboard */; };
+		91A44DA02A48A05D0054357E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A44D9F2A48A05D0054357E /* TabBarController.swift */; };
+		91A44DA42A48A2800054357E /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A44DA32A48A2800054357E /* UIColor + Extension.swift */; };
+		91A44DA62A48AC1E0054357E /* Resouces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A44DA52A48AC1E0054357E /* Resouces.swift */; };
+		91A64C0B2A5DA021008867B8 /* PercentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A64C0A2A5DA020008867B8 /* PercentView.swift */; };
+		91A64C0F2A5EC737008867B8 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A64C0E2A5EC737008867B8 /* StatsView.swift */; };
+		91A64C122A5EC7F7008867B8 /* StatsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A64C112A5EC7F7008867B8 /* StatsItemView.swift */; };
+		91A64C142A5EF1F3008867B8 /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A64C132A5EF1F2008867B8 /* StepsView.swift */; };
+		91A64C162A5EF354008867B8 /* WABarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A64C152A5EF354008867B8 /* WABarsView.swift */; };
+		91A64C182A5EF516008867B8 /* WABarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A64C172A5EF516008867B8 /* WABarView.swift */; };
+		91A64C1B2A5F07C7008867B8 /* DailyPerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A64C1A2A5F07C7008867B8 /* DailyPerformanceView.swift */; };
+		91A64C1D2A5F16FA008867B8 /* MonthPerfomanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A64C1C2A5F16FA008867B8 /* MonthPerfomanceView.swift */; };
+		91A64C202A5FF5AD008867B8 /* WAChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A64C1F2A5FF5AD008867B8 /* WAChartsView.swift */; };
+		91A64C222A5FFA36008867B8 /* YAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A64C212A5FFA36008867B8 /* YAxisView.swift */; };
+		91A64C242A5FFE1D008867B8 /* XAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A64C232A5FFE1D008867B8 /* XAxisView.swift */; };
+		91A64C262A600535008867B8 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A64C252A600535008867B8 /* ChartView.swift */; };
+		91A64C2B2A602B59008867B8 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A64C2A2A602B59008867B8 /* SectionHeaderView.swift */; };
+		91A64C2D2A6047E6008867B8 /* TrainingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A64C2C2A6047E6008867B8 /* TrainingCellView.swift */; };
+		91C16D392A5AD76900ACEE8F /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C16D382A5AD76900ACEE8F /* WeekView.swift */; };
+		91C16D3B2A5ADAD700ACEE8F /* WeekDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C16D3A2A5ADAD700ACEE8F /* WeekDayView.swift */; };
+		91C16D3D2A5AE26800ACEE8F /* Date + Extension .swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C16D3C2A5AE26800ACEE8F /* Date + Extension .swift */; };
+		91C16D402A5C049B00ACEE8F /* WABaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C16D3F2A5C049B00ACEE8F /* WABaseInfoView.swift */; };
+		91C16D432A5C348700ACEE8F /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C16D422A5C348700ACEE8F /* TimerView.swift */; };
+		91C16D462A5C360600ACEE8F /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C16D452A5C360600ACEE8F /* ProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9114788C2A58654C00E5F178 /* WAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAButton.swift; sourceTree = "<group>"; };
+		9114788E2A58771000E5F178 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
+		915279762A49F5A500793B32 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
+		9152797A2A49F86700793B32 /* WABaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseController.swift; sourceTree = "<group>"; };
+		9152797C2A49FAA600793B32 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		915279832A49FC3100793B32 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		915279852A49FC3E00793B32 /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
+		915279872A49FC4C00793B32 /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
 		91A44D862A489DD10054357E /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91A44D892A489DD10054357E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91A44D8B2A489DD10054357E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		91A44D8D2A489DD10054357E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		91A44D902A489DD10054357E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91A44D8D2A489DD10054357E /* OverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverViewController.swift; sourceTree = "<group>"; };
 		91A44D922A489DD60054357E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91A44D952A489DD60054357E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91A44D972A489DD60054357E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91A44D9F2A48A05D0054357E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		91A44DA32A48A2800054357E /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		91A44DA52A48AC1E0054357E /* Resouces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resouces.swift; sourceTree = "<group>"; };
+		91A64C0A2A5DA020008867B8 /* PercentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentView.swift; sourceTree = "<group>"; };
+		91A64C0E2A5EC737008867B8 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		91A64C112A5EC7F7008867B8 /* StatsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsItemView.swift; sourceTree = "<group>"; };
+		91A64C132A5EF1F2008867B8 /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
+		91A64C152A5EF354008867B8 /* WABarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarsView.swift; sourceTree = "<group>"; };
+		91A64C172A5EF516008867B8 /* WABarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarView.swift; sourceTree = "<group>"; };
+		91A64C1A2A5F07C7008867B8 /* DailyPerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPerformanceView.swift; sourceTree = "<group>"; };
+		91A64C1C2A5F16FA008867B8 /* MonthPerfomanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthPerfomanceView.swift; sourceTree = "<group>"; };
+		91A64C1F2A5FF5AD008867B8 /* WAChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAChartsView.swift; sourceTree = "<group>"; };
+		91A64C212A5FFA36008867B8 /* YAxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAxisView.swift; sourceTree = "<group>"; };
+		91A64C232A5FFE1D008867B8 /* XAxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XAxisView.swift; sourceTree = "<group>"; };
+		91A64C252A600535008867B8 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		91A64C2A2A602B59008867B8 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		91A64C2C2A6047E6008867B8 /* TrainingCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCellView.swift; sourceTree = "<group>"; };
+		91C16D382A5AD76900ACEE8F /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		91C16D3A2A5ADAD700ACEE8F /* WeekDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayView.swift; sourceTree = "<group>"; };
+		91C16D3C2A5AE26800ACEE8F /* Date + Extension .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Extension .swift"; sourceTree = "<group>"; };
+		91C16D3F2A5C049B00ACEE8F /* WABaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseInfoView.swift; sourceTree = "<group>"; };
+		91C16D422A5C348700ACEE8F /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		91C16D452A5C360600ACEE8F /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +97,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9114788B2A58652700E5F178 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91A64C282A602B2B008867B8 /* CollectionView */,
+				91A64C272A602B14008867B8 /* NavBar */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		915279792A49F83900793B32 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9152797F2A49FBD000793B32 /* OverView */,
+				915279802A49FBE800793B32 /* Session */,
+				915279812A49FBEF00793B32 /* Progress */,
+				915279822A49FBF500793B32 /* Settings */,
+				9152797E2A49FBBB00793B32 /* Base */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9152797E2A49FBBB00793B32 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				91C16D3E2A5C048B00ACEE8F /* Views */,
+				91A64C1E2A5F19B1008867B8 /* WAChartsView */,
+				915279762A49F5A500793B32 /* NavBarController.swift */,
+				91A44D9F2A48A05D0054357E /* TabBarController.swift */,
+				9152797A2A49F86700793B32 /* WABaseController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9152797F2A49FBD000793B32 /* OverView */ = {
+			isa = PBXGroup;
+			children = (
+				9114788B2A58652700E5F178 /* Views */,
+				91A44D8D2A489DD10054357E /* OverViewController.swift */,
+			);
+			path = OverView;
+			sourceTree = "<group>";
+		};
+		915279802A49FBE800793B32 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				91C16D412A5C347200ACEE8F /* Views */,
+				915279872A49FC4C00793B32 /* SessionController.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		915279812A49FBEF00793B32 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				91A64C192A5F0792008867B8 /* Views */,
+				915279852A49FC3E00793B32 /* ProgressController.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		915279822A49FBF500793B32 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				915279832A49FC3100793B32 /* SettingsController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		91A44D7D2A489DD10054357E = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +184,161 @@
 		91A44D882A489DD10054357E /* WorkoutApp */ = {
 			isa = PBXGroup;
 			children = (
+				91A44D9D2A489DE20054357E /* Application */,
+				915279792A49F83900793B32 /* Controllers */,
+				91A44DA12A48A2550054357E /* Helpers */,
+				91A44D9E2A489E0A0054357E /* SupportingFiles */,
+			);
+			path = WorkoutApp;
+			sourceTree = "<group>";
+		};
+		91A44D9D2A489DE20054357E /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				91A44D892A489DD10054357E /* AppDelegate.swift */,
 				91A44D8B2A489DD10054357E /* SceneDelegate.swift */,
-				91A44D8D2A489DD10054357E /* ViewController.swift */,
-				91A44D8F2A489DD10054357E /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		91A44D9E2A489E0A0054357E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
 				91A44D922A489DD60054357E /* Assets.xcassets */,
 				91A44D942A489DD60054357E /* LaunchScreen.storyboard */,
 				91A44D972A489DD60054357E /* Info.plist */,
 			);
-			path = WorkoutApp;
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		91A44DA12A48A2550054357E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				91A44DA52A48AC1E0054357E /* Resouces.swift */,
+				91C16D3C2A5AE26800ACEE8F /* Date + Extension .swift */,
+				91A44DA22A48A2600054357E /* UIKit + Extension */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		91A44DA22A48A2600054357E /* UIKit + Extension */ = {
+			isa = PBXGroup;
+			children = (
+				91A44DA32A48A2800054357E /* UIColor + Extension.swift */,
+				9152797C2A49FAA600793B32 /* UIView + Extension.swift */,
+			);
+			path = "UIKit + Extension";
+			sourceTree = "<group>";
+		};
+		91A64C0C2A5DB1C1008867B8 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				91A64C102A5EC7E0008867B8 /* Views */,
+				91A64C0E2A5EC737008867B8 /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		91A64C0D2A5DB1C8008867B8 /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				91A64C132A5EF1F2008867B8 /* StepsView.swift */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+		91A64C102A5EC7E0008867B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91A64C112A5EC7F7008867B8 /* StatsItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		91A64C192A5F0792008867B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91A64C1A2A5F07C7008867B8 /* DailyPerformanceView.swift */,
+				91A64C1C2A5F16FA008867B8 /* MonthPerfomanceView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		91A64C1E2A5F19B1008867B8 /* WAChartsView */ = {
+			isa = PBXGroup;
+			children = (
+				91A64C1F2A5FF5AD008867B8 /* WAChartsView.swift */,
+				91A64C252A600535008867B8 /* ChartView.swift */,
+				91A64C212A5FFA36008867B8 /* YAxisView.swift */,
+				91A64C232A5FFE1D008867B8 /* XAxisView.swift */,
+			);
+			path = WAChartsView;
+			sourceTree = "<group>";
+		};
+		91A64C272A602B14008867B8 /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				91C16D372A5AD73E00ACEE8F /* Week */,
+				9114788E2A58771000E5F178 /* OverviewNavBar.swift */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		91A64C282A602B2B008867B8 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				91A64C292A602B41008867B8 /* View */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		91A64C292A602B41008867B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91A64C2A2A602B59008867B8 /* SectionHeaderView.swift */,
+				91A64C2C2A6047E6008867B8 /* TrainingCellView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		91C16D372A5AD73E00ACEE8F /* Week */ = {
+			isa = PBXGroup;
+			children = (
+				91C16D382A5AD76900ACEE8F /* WeekView.swift */,
+				91C16D3A2A5ADAD700ACEE8F /* WeekDayView.swift */,
+			);
+			path = Week;
+			sourceTree = "<group>";
+		};
+		91C16D3E2A5C048B00ACEE8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9114788C2A58654C00E5F178 /* WAButton.swift */,
+				91C16D3F2A5C049B00ACEE8F /* WABaseInfoView.swift */,
+				91A64C152A5EF354008867B8 /* WABarsView.swift */,
+				91A64C172A5EF516008867B8 /* WABarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		91C16D412A5C347200ACEE8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91C16D442A5C35F000ACEE8F /* Timer */,
+				91A64C0D2A5DB1C8008867B8 /* Steps */,
+				91A64C0C2A5DB1C1008867B8 /* Stats */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		91C16D442A5C35F000ACEE8F /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				91C16D422A5C348700ACEE8F /* TimerView.swift */,
+				91C16D452A5C360600ACEE8F /* ProgressView.swift */,
+				91A64C0A2A5DA020008867B8 /* PercentView.swift */,
+			);
+			path = Timer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +401,6 @@
 			files = (
 				91A44D962A489DD60054357E /* LaunchScreen.storyboard in Resources */,
 				91A44D932A489DD60054357E /* Assets.xcassets in Resources */,
-				91A44D912A489DD10054357E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +411,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91A44D8E2A489DD10054357E /* ViewController.swift in Sources */,
+				91A64C0F2A5EC737008867B8 /* StatsView.swift in Sources */,
+				91C16D3D2A5AE26800ACEE8F /* Date + Extension .swift in Sources */,
+				91A64C162A5EF354008867B8 /* WABarsView.swift in Sources */,
+				91A64C1B2A5F07C7008867B8 /* DailyPerformanceView.swift in Sources */,
+				91A44D8E2A489DD10054357E /* OverViewController.swift in Sources */,
+				91C16D3B2A5ADAD700ACEE8F /* WeekDayView.swift in Sources */,
+				91A64C202A5FF5AD008867B8 /* WAChartsView.swift in Sources */,
+				91A44DA02A48A05D0054357E /* TabBarController.swift in Sources */,
+				91C16D392A5AD76900ACEE8F /* WeekView.swift in Sources */,
+				9114788F2A58771000E5F178 /* OverviewNavBar.swift in Sources */,
 				91A44D8A2A489DD10054357E /* AppDelegate.swift in Sources */,
+				915279772A49F5A500793B32 /* NavBarController.swift in Sources */,
 				91A44D8C2A489DD10054357E /* SceneDelegate.swift in Sources */,
+				91A64C222A5FFA36008867B8 /* YAxisView.swift in Sources */,
+				915279862A49FC3E00793B32 /* ProgressController.swift in Sources */,
+				91C16D432A5C348700ACEE8F /* TimerView.swift in Sources */,
+				91A64C122A5EC7F7008867B8 /* StatsItemView.swift in Sources */,
+				9114788D2A58654C00E5F178 /* WAButton.swift in Sources */,
+				91A44DA62A48AC1E0054357E /* Resouces.swift in Sources */,
+				915279842A49FC3100793B32 /* SettingsController.swift in Sources */,
+				91C16D402A5C049B00ACEE8F /* WABaseInfoView.swift in Sources */,
+				9152797B2A49F86700793B32 /* WABaseController.swift in Sources */,
+				91A64C2B2A602B59008867B8 /* SectionHeaderView.swift in Sources */,
+				91A44DA42A48A2800054357E /* UIColor + Extension.swift in Sources */,
+				91A64C2D2A6047E6008867B8 /* TrainingCellView.swift in Sources */,
+				91A64C262A600535008867B8 /* ChartView.swift in Sources */,
+				91A64C182A5EF516008867B8 /* WABarView.swift in Sources */,
+				91A64C0B2A5DA021008867B8 /* PercentView.swift in Sources */,
+				91A64C142A5EF1F3008867B8 /* StepsView.swift in Sources */,
+				91C16D462A5C360600ACEE8F /* ProgressView.swift in Sources */,
+				91A64C1D2A5F16FA008867B8 /* MonthPerfomanceView.swift in Sources */,
+				915279882A49FC4C00793B32 /* SessionController.swift in Sources */,
+				9152797D2A49FAA600793B32 /* UIView + Extension.swift in Sources */,
+				91A64C242A5FFE1D008867B8 /* XAxisView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		91A44D8F2A489DD10054357E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				91A44D902A489DD10054357E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		91A44D942A489DD60054357E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +585,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9VPKL84SZ9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WorkoutApp/Info.plist;
+				INFOPLIST_FILE = WorkoutApp/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +597,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = bezrukov.andrey.WorkoutApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +615,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9VPKL84SZ9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WorkoutApp/Info.plist;
+				INFOPLIST_FILE = WorkoutApp/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +627,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = bezrukov.andrey.WorkoutApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
